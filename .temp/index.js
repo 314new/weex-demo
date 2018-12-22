@@ -1,5 +1,4 @@
 import Vue from 'vue';
-
 import weex from 'weex-vue-render';
 
 // import render-core.

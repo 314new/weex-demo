@@ -14,3 +14,7 @@ import weex from 'weex-vue-render';
 // weex.install(stream);
 
 weex.init(Vue);
+
+import App from '..\\..\\..\\src\\components\\HeaderBar\\HeaderBar.vue';
+App.el = '#root';
+new Vue(App);

@@ -1,6 +1,6 @@
 <template>
   <div class="header-bar">
-    <text>头部</text>
+    <text class="brand">Andy News</text>
   </div>
 </template>
 
@@ -16,8 +16,14 @@
 
 <style scoped>
   .header-bar {
-      height: 80px;
+      height: 90px;
       width: 750px;
-      background: red;
+      align-items: center;
+      justify-content: center;
+      background-color: #512DA8;
+  }
+  .brand {
+    font-size: 34px;
+    color: rgba(255, 255, 255, 1);
   }
 </style>
